@@ -1,38 +1,38 @@
-FuckItJS
+FsckItJS
 ========
 ### Javascript Error Steamroller
 
-FuckItJS uses state-of-the-art technology to make sure your javascript code runs whether your compiler likes it or not.
+FsckItJS uses state-of-the-art technology to make sure your javascript code runs whether your compiler likes it or not.
 
 Technology
 ----------
 
-Through a process known as *Eval-Rinse-Reload-And-Repeat*, FuckItJS repeatedly compiles your code, detecting errors and slicing those lines out of the script.
-To survive such a violent process, FuckItJS reloads itself after each iteration, allowing the onerror handler to catch every single error in your terribly written code.
+Through a process known as *Eval-Rinse-Reload-And-Repeat*, FsckItJS repeatedly compiles your code, detecting errors and slicing those lines out of the script.
+To survive such a violent process, FsckItJS reloads itself after each iteration, allowing the onerror handler to catch every single error in your terribly written code.
 
 Installation
 ------------
 
 1. Include jQuery, because everything requires jQuery
-2. Include "fuckit.js"
+2. Include "Fsckit.js"
 3. The End
 
 API
 ---
 
-**FuckIt**(*path_to_your_shitty_script_file*)
+**FsckIt**(*path_to_your_shitty_script_file*)
 
 This will keep evaluating your code until all errors have been sliced off like mold on a piece of perfectly good bread.
 Whether or not the remaining code is even worth executing, we don't know. We also don't particularly care.
 
-FuckIt returns a promise that will be resolved once your godforsaken code actually makes it to the finish line. You can use this callback to chain additional FuckIt calls, since we all know calling it once won't do enough damage to the Internet.
+FsckIt returns a promise that will be resolved once your godforsaken code actually makes it to the finish line. You can use this callback to chain additional FsckIt calls, since we all know calling it once won't do enough damage to the Internet.
 
-**FuckIt.noConflict**()
+**FsckIt.noConflict**()
 
-Are you using two different FuckIt libraries? Fuck it, use FuckIt.NoConflict.
-Of course, this won't really help since FuckItJS reloads itself multiple times and will continually overwrite the global FuckIt variable, but hey... at least you can feel like you're doing something smart.
+Are you using two different FsckIt libraries? Fsck it, use FsckIt.NoConflict.
+Of course, this won't really help since FsckItJS reloads itself multiple times and will continually overwrite the global FsckIt variable, but hey... at least you can feel like you're doing something smart.
 
-**FuckIt.moreConflict**()
+**FsckIt.moreConflict**()
 
 Are you tired of running from conflict? Are you ready to overwrite every single property on the global `window` object even if it crashes your browser? Then this method is for you.
 
